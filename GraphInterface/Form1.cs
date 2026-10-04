@@ -174,7 +174,7 @@ namespace GraphInterface
                     memory = (int)sum;
             }
             else
-                MessageBox.Show("Error code can't be written into memory!");
+                MessageBox.Show("Неможливо перетворити до числа");   // текст за п. 4.1.3.2 специфікації
         }
 
         /// <summary>
